@@ -6,15 +6,34 @@ body {
   background-color: white;
   color: black;
   font-family: Verdana;
-  background-image: url("ascii-art-escher.png");
+/*  background-image: url("ascii-art-escher.png");*/
+  background-image: url("escher.png");
+/*  background-image: url("Screenshot 2024-04-06 at 10.29.50 AM.png");*/
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+.overlay {
+  text-align: center;
+  /* Adjust the opacity by changing the last value (0.5) */
+}
+.box{
+  background-color: rgba(255,255,255, 0.8);
+margin: 0 auto;
+width: 30%;
+        border-radius: 20px;
+  /* Adjust the opacity by changing the last value (0.5) */
+}
+
+.bio {
+  padding: 20px;
+}
+
 .links {
-    width: 30%;
+    width: 80%;
     margin: auto;
-    padding: 0;
+    padding: 10px;
 }
 
 .links li{
